@@ -1283,8 +1283,8 @@
   {
     "Index": "0x0057",
     "ReturnType": "int",
-    "Name": "FUNCTION_0057",
-    "Description": "",
+    "Name": "GET_LOCATIONID",
+    "Description": "Gets the current location ID and returns it as an INT",
     "Parameters": [
     ]
   },
