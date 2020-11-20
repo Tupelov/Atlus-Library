@@ -60,22 +60,22 @@
   {
     "Index": "0x0006",
     "ReturnType": "void",
-    "Name": "FUNCTION_0006",
-    "Description": "",
+    "Name": "PRINT_DEBUG",
+    "Description": "Print debug any int set to the second parameter by calling [f 2 4 0] in the msg.  (Could possibly set more than one parameter with the other two unknown parameters.  Have only tested with 0's so far.",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "unknown1",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
+        "Name": "Int to set for param [f 2 4 0] to print in msg",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param3",
+        "Name": "unknown2",
         "Description": ""
       }
     ]
@@ -200,7 +200,7 @@
   {
     "Index": "0x0010",
     "ReturnType": "void",
-    "Name": "?WAIT",
+    "Name": "NS_WAIT",
     "Description": "Makes the game wait for a certain amount of time,not sure what the input actually is ig,sec,ms,etc",
     "Parameters": [
       {
@@ -928,13 +928,13 @@
   {
     "Index": "0x003e",
     "ReturnType": "void",
-    "Name": "FUNCTION_003E",
-    "Description": "",
+    "Name": "CALL_FLOOR",
+    "Description": "Loads floor ID from 1-170 for dungeons",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
-        "Description": ""
+        "Name": "floorID",
+        "Description": "ID of the floor to load"
       }
     ]
   },
@@ -1284,7 +1284,7 @@
     "Index": "0x0057",
     "ReturnType": "int",
     "Name": "NS_SAVE",
-    "Description": "Gets the current location ID and returns it as an INT",
+    "Description": "Pulls up the save menu and saves.",
     "Parameters": [
     ]
   },
@@ -1970,7 +1970,7 @@
   {
     "Index": "0x0092",
     "ReturnType": "void",
-    "Name": "SAVEMENU_ASK",
+    "Name": "SAVE_ASK",
     "Description": "Opens a menu that says (Are you sure you would like to save?) and then opens save menu.",
     "Parameters": [
       {
@@ -1983,8 +1983,8 @@
   {
     "Index": "0x0093",
     "ReturnType": "void",
-    "Name": "?DISABLE_PLAYER_MOVEMENT",
-    "Description": "",
+    "Name": "NS_DISABLE_PLAYER_MOVEMENT",
+    "Description": "Stops player from moving. To be used with SAVE_ASK",
     "Parameters": [
     ]
   },
