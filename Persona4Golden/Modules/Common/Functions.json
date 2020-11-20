@@ -1752,7 +1752,7 @@
   {
     "Index": "0x007d",
     "ReturnType": "void",
-    "Name": "FUNCTION_007D",
+    "Name": "OPEN_CALENDAR",
     "Description": "Code function name: cmpCalendar_sub_8114FEBC",
     "Parameters": [
     ]
