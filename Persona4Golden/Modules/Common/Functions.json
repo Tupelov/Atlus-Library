@@ -548,23 +548,23 @@
   {
     "Index": "0x0025",
     "ReturnType": "int",
-    "Name": "FUNCTION_0025",
+    "Name": "ADV_SEL",
     "Description": "Code function name: itfMesManager__sub_8101F354",
     "Parameters": [
       {
         "Type": "int",
         "Name": "param1",
-        "Description": ""
+        "Description": "Message on bottom right of select menu"
       },
       {
         "Type": "int",
         "Name": "param2",
-        "Description": ""
+        "Description": "Select options"
       },
       {
         "Type": "int",
         "Name": "param3",
-        "Description": ""
+        "Description": "Bit mask to disable options"
       }
     ]
   },
@@ -808,16 +808,16 @@
   {
     "Index": "0x0034",
     "ReturnType": "int",
-    "Name": "GET_DAY",
-    "Description": "",
+    "Name": "GET_DAY_OF_MONTH",
+    "Description": "Returns day of the month",
     "Parameters": [
     ]
   },
   {
     "Index": "0x0035",
     "ReturnType": "int",
-    "Name": "FUNCTION_0035",
-    "Description": "",
+    "Name": "GET_DAY_OF_WEEK",
+    "Description": "Returns day of the week as int from 0 to 6.",
     "Parameters": [
     ]
   },
@@ -1752,7 +1752,7 @@
   {
     "Index": "0x007d",
     "ReturnType": "void",
-    "Name": "FUNCTION_007D",
+    "Name": "OPEN_CALENDAR",
     "Description": "Code function name: cmpCalendar_sub_8114FEBC",
     "Parameters": [
     ]
