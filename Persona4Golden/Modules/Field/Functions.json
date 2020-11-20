@@ -23,8 +23,8 @@
   {
     "Index": "0x1002",
     "ReturnType": "int",
-    "Name": "FLD_FUNCTION_0002",
-    "Description": "",
+    "Name": "GET_FLOOR_ID",
+    "Description": "Returns 0 if not in dungeon, ID of floor otherwise.",
     "Parameters": [
     ]
   },
