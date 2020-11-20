@@ -200,8 +200,8 @@
   {
     "Index": "0x0010",
     "ReturnType": "void",
-    "Name": "FUNCTION_0010",
-    "Description": "",
+    "Name": "?WAIT",
+    "Description": "Makes the game wait for a certain amount of time,not sure what the input actually is ig,sec,ms,etc",
     "Parameters": [
       {
         "Type": "int",
@@ -1601,8 +1601,8 @@
   {
     "Index": "0x0071",
     "ReturnType": "void",
-    "Name": "FUNCTION_0071",
-    "Description": "",
+    "Name": "PLAY_SOUNDEFFECT",
+    "Description": "Plays a sound effect. param1 specifies which sound effect.",
     "Parameters": [
       {
         "Type": "int",
@@ -1970,20 +1970,20 @@
   {
     "Index": "0x0092",
     "ReturnType": "void",
-    "Name": "FUNCTION_0092",
-    "Description": "Code function name: mc_clear___sub_8129DDC6",
+    "Name": "SAVEMENU_ASK",
+    "Description": "Opens a menu that says (Are you sure you would like to save?) and then opens save menu.",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
-        "Description": ""
+        "Name": "Location ID",
+        "Description": "The ID of the location that the save is made in"
       }
     ]
   },
   {
     "Index": "0x0093",
     "ReturnType": "void",
-    "Name": "FUNCTION_0093",
+    "Name": "?DISABLE_PLAYER_MOVEMENT",
     "Description": "",
     "Parameters": [
     ]
