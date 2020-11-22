@@ -173,19 +173,19 @@
     {
         "Index": "0x000e",
         "ReturnType": "void",
-        "Name": "FUNCTION_000E",
-        "Description": "001C27B0",
+        "Name": "FADE",
+        "Description": "Call animated transition",
         "Parameters":
         [
 			{
 				"Type": "int",
 				"Name": "param1",
-				"Description": ""
+				"Description": "Enum of fade"
 			},
 			{
 				"Type": "int",
 				"Name": "param2",
-				"Description": ""
+				"Description": "Length of fade?"
 			}
         ]
     },
@@ -509,29 +509,29 @@
     {
         "Index": "0x0021",
         "ReturnType": "void",
-        "Name": "FUNCTION_0021",
-        "Description": "001C21B0",
+        "Name": "CALL_FIELD",
+        "Description": "Calls field based on ids, entry point, and maybe position",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "major",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "minor",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param3",
+				"Name": "entry",
 				"Description": ""
 			},
 			{
 				"Type": "int",
 				"Name": "param4",
-				"Description": ""
+				"Description": "Maybe rotation of camera?"
 			}
         ]
     },
@@ -589,14 +589,14 @@
     {
         "Index": "0x0026",
         "ReturnType": "void",
-        "Name": "MSG_FUNCTION_0026",
-        "Description": "003A2150",
+        "Name": "HELP_MSG",
+        "Description": "Displays msg on help screen",
         "Parameters":
         [
 			{
 				"Type": "int",
 				"Name": "param1",
-				"Description": ""
+				"Description": "Index/name of msg to display"
 			}
         ]
     },
@@ -1629,18 +1629,18 @@
     {
         "Index": "0x0076",
         "ReturnType": "void",
-        "Name": "FUNCTION_0076",
-        "Description": "001C2300",
+        "Name": "CALL_EVENT",
+        "Description": "Calls pm event based on id's",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "major",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "minor",
 				"Description": ""
 			},
 			{
@@ -1667,14 +1667,14 @@
     {
         "Index": "0x0078",
         "ReturnType": "void",
-        "Name": "FUNCTION_0078",
-        "Description": "001C24E0",
+        "Name": "CALL_FLOOR",
+        "Description": "Goes to floor id set in the param",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
-				"Description": ""
+				"Name": "id",
+				"Description": "ID of floor"
 			}
         ]
     },
@@ -1700,8 +1700,8 @@
     {
         "Index": "0x007a",
         "ReturnType": "void",
-        "Name": "FUNCTION_007A",
-        "Description": "001C26F0",
+        "Name": "NEXT_DAY()",
+        "Description": "Goes to next day",
         "Parameters":
         [
         ]
@@ -1760,8 +1760,8 @@
     {
         "Index": "0x007f",
         "ReturnType": "void",
-        "Name": "FUNCTION_007F",
-        "Description": "001C2830",
+        "Name": "FADE_SYNC",
+        "Description": "Waits for fade function to catch up",
         "Parameters":
         [
         ]
@@ -1939,8 +1939,8 @@
     {
         "Index": "0x008a",
         "ReturnType": "int",
-        "Name": "FUNCTION_008A",
-        "Description": "001C3040",
+        "Name": "GET_FLOOR_ID",
+        "Description": "Gets ID of current floor. 0 if not in dungeon",
         "Parameters":
         [
         ]
@@ -2039,13 +2039,13 @@
     {
         "Index": "0x0094",
         "ReturnType": "void",
-        "Name": "FUNCTION_0094",
-        "Description": "0027D6E0",
+        "Name": "CALL_BATTLE",
+        "Description": "Calls battle based on id",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "id",
 				"Description": ""
 			}
         ]
@@ -3064,13 +3064,13 @@
     {
         "Index": "0x00d5",
         "ReturnType": "void",
-        "Name": "FUNCTION_00D5",
-        "Description": "0016E750",
+        "Name": "NS_ADD_MEMBER",
+        "Description": "Found in member swapping function but didn't work through testing",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "id",
 				"Description": ""
 			}
         ]
@@ -5222,8 +5222,8 @@
     {
         "Index": "0x0168",
         "ReturnType": "void",
-        "Name": "FUNCTION_0168",
-        "Description": "001C54E0",
+        "Name": "CALL_SFX",
+        "Description": "Plays sfx",
         "Parameters":
         [
 			{
@@ -5603,13 +5603,13 @@
     {
         "Index": "0x0185",
         "ReturnType": "void",
-        "Name": "FUNCTION_0185",
-        "Description": "001C5640",
+        "Name": "CALL_BGM",
+        "Description": "Plays bgm based on id",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "id",
 				"Description": ""
 			}
         ]
@@ -6116,13 +6116,13 @@
     {
         "Index": "0x01aa",
         "ReturnType": "void",
-        "Name": "MOVIE_PLAY",
-        "Description": "0010BCB0",
+        "Name": "CALL_MOVIE",
+        "Description": "Call movie based on id",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "id",
 				"Description": ""
 			}
         ]
@@ -6130,8 +6130,8 @@
     {
         "Index": "0x01ab",
         "ReturnType": "void",
-        "Name": "FUNCTION_01AB",
-        "Description": "0010BD90",
+        "Name": "NS_MOVIE_SYNC",
+        "Description": "Always called after CALL_MOVIE.",
         "Parameters":
         [
         ]
