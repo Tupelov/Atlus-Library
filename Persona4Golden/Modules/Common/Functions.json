@@ -200,7 +200,7 @@
   {
     "Index": "0x0010",
     "ReturnType": "void",
-    "Name": "WAIT",
+    "Name": "NS_WAIT",
     "Description": "Makes the game wait for a certain amount of time,not sure what the input actually is ig,sec,ms,etc",
     "Parameters": [
       {
@@ -1283,8 +1283,8 @@
   {
     "Index": "0x0057",
     "ReturnType": "int",
-    "Name": "GET_LOCATIONID",
-    "Description": "Pulls up the save menu and saves. Returns the current location ID?(still needs testing)",
+    "Name": "NS_SAVE",
+    "Description": "Pulls up the save menu and saves.",
     "Parameters": [
     ]
   },
@@ -1970,7 +1970,7 @@
   {
     "Index": "0x0092",
     "ReturnType": "void",
-    "Name": "SAVEMENU_ASK",
+    "Name": "SAVE_ASK",
     "Description": "Opens a menu that says (Are you sure you would like to save?) and then opens save menu.",
     "Parameters": [
       {
@@ -1983,8 +1983,8 @@
   {
     "Index": "0x0093",
     "ReturnType": "void",
-    "Name": "DISABLE_PLAYER_MOVEMENT",
-    "Description": "Stops player from moving. To be used with SAVEMENU_ASK",
+    "Name": "NS_DISABLE_PLAYER_MOVEMENT",
+    "Description": "Stops player from moving. To be used with SAVE_ASK",
     "Parameters": [
     ]
   },
