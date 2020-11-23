@@ -2,8 +2,8 @@
   {
     "Index": "0x1000",
     "ReturnType": "int",
-    "Name": "FLD_FUNCTION_0000",
-    "Description": "",
+    "Name": "GET_FIELD_MINOR",
+    "Description": "Get minor id of current field",
     "Parameters": [
     ]
   },
@@ -474,8 +474,8 @@
   {
     "Index": "0x1022",
     "ReturnType": "int",
-    "Name": "FLD_FUNCTION_0022",
-    "Description": "",
+    "Name": "GET_FIELD_MAJOR",
+    "Description": "Returns major id of field",
     "Parameters": [
     ]
   },

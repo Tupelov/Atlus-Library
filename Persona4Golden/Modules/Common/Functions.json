@@ -60,17 +60,17 @@
   {
     "Index": "0x0006",
     "ReturnType": "void",
-    "Name": "PRINT_DEBUG",
-    "Description": "Print debug any int set to the second parameter by calling [f 2 4 0] in the msg.  (Could possibly set more than one parameter with the other two unknown parameters.  Have only tested with 0's so far.",
+    "Name": "SET_MSG_VAR",
+    "Description": "Set any int to the parameter [f 2 4 index] in the msg.",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "unknown1",
-        "Description": ""
+        "Name": "index",
+        "Description": "Index to set the msg variable as"
       },
       {
         "Type": "int",
-        "Name": "Int to set for param [f 2 4 0] to print in msg",
+        "Name": "Int to set for param [f 2 4 index] to print in msg",
         "Description": ""
       },
       {
@@ -83,39 +83,39 @@
   {
     "Index": "0x0007",
     "ReturnType": "void",
-    "Name": "FUNCTION_0007",
-    "Description": "",
+    "Name": "SET_SEL_CHOICE_KEYBIND",
+    "Description": "Selects choice from SEL or ADV_SEL when the specified key is pressed, 14 being the back button",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
-        "Description": ""
+        "Name": "key",
+        "Description": "Key pressed, only tested 14"
       },
       {
         "Type": "int",
-        "Name": "param2",
-        "Description": ""
+        "Name": "choice",
+        "Description": "Index of sel to choose"
       }
     ]
   },
   {
     "Index": "0x0008",
     "ReturnType": "void",
-    "Name": "FUNCTION_0008",
-    "Description": "Code function name: itfMesManager__sub_8101F7DA",
+    "Name": "SET_MASK",
+    "Description": "Sets mask similar to the one for ADV_SEL but for SEL",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
-        "Description": ""
+        "Name": "mask",
+        "Description": "Bit mask to hide choices"
       }
     ]
   },
   {
     "Index": "0x0009",
     "ReturnType": "void",
-    "Name": "FUNCTION_0009",
-    "Description": "Code function name: itfMesManager__sub_8101EEA8",
+    "Name": "HELP_MSG",
+    "Description": "Prints message on help screen",
     "Parameters": [
       {
         "Type": "int",
@@ -278,7 +278,7 @@
   {
     "Index": "0x0016",
     "ReturnType": "void",
-    "Name": "OUTRO",
+    "Name": "FADE",
     "Description": "",
     "Parameters": [
       {
@@ -296,7 +296,7 @@
   {
     "Index": "0x0017",
     "ReturnType": "void",
-    "Name": "OUTRO_SYNC",
+    "Name": "FADE_SYNC",
     "Description": "",
     "Parameters": [
     ]
@@ -959,27 +959,27 @@
   {
     "Index": "0x0040",
     "ReturnType": "int",
-    "Name": "FUNCTION_0040",
-    "Description": "",
+    "Name": "CHECK_TIME_SPAN",
+    "Description": "Returns 1 (true) if current date is between date1 and date2",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "date1Month",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
+        "Name": "date1Day",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param3",
+        "Name": "date2Month",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param4",
+        "Name": "date2Day",
         "Description": ""
       }
     ]
@@ -1307,8 +1307,8 @@
   {
     "Index": "0x005a",
     "ReturnType": "int",
-    "Name": "FUNCTION_005A",
-    "Description": "",
+    "Name": "GET_PARTY_MEMBER_ID",
+    "Description": "Returns the id of the party member in the slot specified 0-3 (0 always being protagonist)",
     "Parameters": [
       {
         "Type": "int",
