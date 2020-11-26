@@ -10,8 +10,8 @@
   {
     "Index": "0x1001",
     "ReturnType": "void",
-    "Name": "FLD_FUNCTION_0001",
-    "Description": "",
+    "Name": "GOTO_REL_FLOOR",
+    "Description": "Goes to current floor plus parameter",
     "Parameters": [
       {
         "Type": "int",
@@ -31,8 +31,8 @@
   {
     "Index": "0x1003",
     "ReturnType": "void",
-    "Name": "FLD_FUNCTION_0003",
-    "Description": "",
+    "Name": "RESET_FLOOR",
+    "Description": "Makes new floor",
     "Parameters": [
     ]
   },

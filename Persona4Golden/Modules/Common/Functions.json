@@ -166,8 +166,8 @@
   {
     "Index": "0x000d",
     "ReturnType": "int",
-    "Name": "FUNCTION_000D",
-    "Description": "",
+    "Name": "RNG",
+    "Description": "Returns random int from 0 to param",
     "Parameters": [
       {
         "Type": "int",
@@ -476,8 +476,8 @@
   {
     "Index": "0x0021",
     "ReturnType": "int",
-    "Name": "FUNCTION_0021",
-    "Description": "",
+    "Name": "GET_CNT",
+    "Description": "Gets count at param",
     "Parameters": [
       {
         "Type": "int",
@@ -489,8 +489,8 @@
   {
     "Index": "0x0022",
     "ReturnType": "void",
-    "Name": "FUNCTION_0022",
-    "Description": "",
+    "Name": "SET_CNT",
+    "Description": "Sets count at param",
     "Parameters": [
       {
         "Type": "int",
