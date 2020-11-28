@@ -3316,30 +3316,30 @@
   {
     "Index": "0x20f8",
     "ReturnType": "void",
-    "Name": "AI_FUNCTION_00F8",
-    "Description": "",
+    "Name": "SET_ORDER",
+    "Description": "Sets party member id given to tactic given",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "id",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
-        "Description": ""
+        "Name": "tactic",
+        "Description": "0 through 4. 0 being Act Freely, 4 being Direct Commands"
       }
     ]
   },
   {
     "Index": "0x20f9",
     "ReturnType": "int",
-    "Name": "AI_FUNCTION_00F9",
-    "Description": "",
+    "Name": "GET_ORDER",
+    "Description": "Gets current tactic from given id",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "id",
         "Description": ""
       }
     ]

@@ -863,8 +863,8 @@
   {
     "Index": "0x0039",
     "ReturnType": "void",
-    "Name": "FUNCTION_0039",
-    "Description": "",
+    "Name": "RM_PARTY",
+    "Description": "Removes given id from party",
     "Parameters": [
       {
         "Type": "int",
@@ -1333,27 +1333,27 @@
   {
     "Index": "0x005c",
     "ReturnType": "int",
-    "Name": "FUNCTION_005C",
-    "Description": "",
+    "Name": "NAVI_BU_OPEN",
+    "Description": "Opens given navi bustup in given position. Returns id for NAVI_BU_CLOSE to close.",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "pos_x",
+        "Description": "X position. Usually 280"
+      },
+      {
+        "Type": "int",
+        "Name": "pos_y",
+        "Description": "Y position. Usually -40"
+      },
+      {
+        "Type": "int",
+        "Name": "major",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
-        "Description": ""
-      },
-      {
-        "Type": "int",
-        "Name": "param3",
-        "Description": ""
-      },
-      {
-        "Type": "int",
-        "Name": "param4",
+        "Name": "minor",
         "Description": ""
       }
     ]
@@ -1362,7 +1362,7 @@
     "Index": "0x005d",
     "ReturnType": "void",
     "Name": "FUNCTION_005D",
-    "Description": "",
+    "Description": "Closes navi bustup opened by NAVI_BU_OPEN",
     "Parameters": [
       {
         "Type": "int",
