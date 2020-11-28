@@ -1361,7 +1361,7 @@
   {
     "Index": "0x005d",
     "ReturnType": "void",
-    "Name": "FUNCTION_005D",
+    "Name": "NAVI_BU_CLOSE",
     "Description": "Closes navi bustup opened by NAVI_BU_OPEN",
     "Parameters": [
       {
