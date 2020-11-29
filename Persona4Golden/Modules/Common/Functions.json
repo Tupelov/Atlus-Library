@@ -70,13 +70,13 @@
       },
       {
         "Type": "int",
-        "Name": "Int to set for param [f 2 4 index] to print in msg",
-        "Description": ""
+        "Name": "var",
+        "Description": "Variable to set for param to print in msg"
       },
       {
         "Type": "int",
         "Name": "unknown2",
-        "Description": ""
+        "Description": "Enum for which type of variable? 0 for int using [f 2 4 index] and 1 for item string using [f 2 5 3 -1 index]"
       }
     ]
   },
@@ -1203,12 +1203,12 @@
   {
     "Index": "0x0052",
     "ReturnType": "int",
-    "Name": "FUNCTION_0052",
-    "Description": "",
+    "Name": "GET_ITEM",
+    "Description": "Returns amount of the item index you currently have",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "index",
         "Description": ""
       }
     ]
@@ -1216,17 +1216,17 @@
   {
     "Index": "0x0053",
     "ReturnType": "void",
-    "Name": "FUNCTION_0053",
-    "Description": "",
+    "Name": "SET_ITEM",
+    "Description": "Sets the specified amount to the item specified",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "index",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
+        "Name": "count",
         "Description": ""
       }
     ]
@@ -1760,8 +1760,8 @@
   {
     "Index": "0x007e",
     "ReturnType": "void",
-    "Name": "FUNCTION_007E",
-    "Description": "",
+    "Name": "SHIROKU_PUB",
+    "Description": "Goes to Shiroku Pub",
     "Parameters": [
     ]
   },
