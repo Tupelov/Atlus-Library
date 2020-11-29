@@ -1182,13 +1182,13 @@
   {
     "Index": "0x0050",
     "ReturnType": "int",
-    "Name": "FUNCTION_0050",
-    "Description": "",
+    "Name": "ADD_YEN",
+    "Description": "Adds the amount of yen and return the new total.",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
-        "Description": ""
+        "Name": "Yen_Amount",
+        "Description": "How much you want to change the money value by"
       }
     ]
   },
