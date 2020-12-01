@@ -1374,7 +1374,7 @@
   {
     "Index": "0x005e",
     "ReturnType": "int",
-    "Name": "FUNCTION_005E",
+    "Name": "GET_CUR_HP",
     "Description": "",
     "Parameters": [
       {
@@ -1387,7 +1387,7 @@
   {
     "Index": "0x005f",
     "ReturnType": "int",
-    "Name": "FUNCTION_005F",
+    "Name": "GET_TOT_HP",
     "Description": "",
     "Parameters": [
       {
@@ -1400,7 +1400,7 @@
   {
     "Index": "0x0060",
     "ReturnType": "void",
-    "Name": "FUNCTION_0060",
+    "Name": "SET_HP",
     "Description": "",
     "Parameters": [
       {
@@ -1418,7 +1418,7 @@
   {
     "Index": "0x0061",
     "ReturnType": "int",
-    "Name": "FUNCTION_0061",
+    "Name": "GET_CUR_SP",
     "Description": "",
     "Parameters": [
       {
@@ -1431,7 +1431,7 @@
   {
     "Index": "0x0062",
     "ReturnType": "int",
-    "Name": "FUNCTION_0062",
+    "Name": "GET_TOT_SP",
     "Description": "",
     "Parameters": [
       {
@@ -1444,7 +1444,7 @@
   {
     "Index": "0x0063",
     "ReturnType": "void",
-    "Name": "FUNCTION_0063",
+    "Name": "SET_SP",
     "Description": "",
     "Parameters": [
       {
