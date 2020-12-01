@@ -481,7 +481,7 @@
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "INDEX",
         "Description": ""
       }
     ]
@@ -494,12 +494,12 @@
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "INDEX",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
+        "Name": "AMOUNT",
         "Description": ""
       }
     ]
