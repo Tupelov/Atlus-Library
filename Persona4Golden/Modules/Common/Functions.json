@@ -1151,7 +1151,7 @@
     "Index": "0x004c",
     "ReturnType": "int",
     "Name": "GET_WEATHER",
-    "Description": "Returns the weather,0=Clear,1= Rain, 2= Cloudy",
+    "Description": "Returns the weather,0=Clear,1= Rain, 2= Cloudy, Thunderstorm",
     "Parameters": [
     ]
   },
