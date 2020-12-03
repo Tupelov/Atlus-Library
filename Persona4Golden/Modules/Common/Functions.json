@@ -2219,8 +2219,8 @@
   {
     "Index": "0x00a4",
     "ReturnType": "void",
-    "Name": "FUNCTION_00A4",
-    "Description": "Code function name: cldDayChange_sub_81040476",
+    "Name": "TRANSITION_EPILOGUE",
+    "Description": "Calender transition used in the epilogue",
     "Parameters": [
     ]
   },
