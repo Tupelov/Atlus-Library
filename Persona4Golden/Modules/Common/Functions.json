@@ -1823,7 +1823,7 @@
   {
     "Index": "0x0084",
     "ReturnType": "void",
-    "Name": "GIVE_SL_SKILL",
+    "Name": "LEARN_SL_SKILL",
     "Description": "",
     "Parameters": [
       {
@@ -1954,8 +1954,8 @@
   {
     "Index": "0x0090",
     "ReturnType": "void",
-    "Name": "FUNCTION_0090",
-    "Description": "Code function name: mc_clear___sub_8129DCB0",
+    "Name": "SAVE_STORY",
+    "Description": "Gives you a warning about story changes and then asks you to save.",
     "Parameters": [
     ]
   },
@@ -2052,17 +2052,17 @@
     "Index": "0x0099",
     "ReturnType": "int",
     "Name": "FUNCTION_0099",
-    "Description": "Code function name: cmpMisc_sub_81165A4E",
+    "Description": "LEARN_BONUS_SKILL",
     "Parameters": [
       {
         "Type": "int",
         "Name": "param1",
-        "Description": ""
+        "Description": "Requires more investigation"
       },
       {
         "Type": "int",
         "Name": "param2",
-        "Description": ""
+        "Description": "Requires more investigation"
       }
     ]
   },
