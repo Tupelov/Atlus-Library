@@ -1768,7 +1768,7 @@
   {
     "Index": "0x007f",
     "ReturnType": "void",
-    "Name": "FUNCTION_007F",
+    "Name": "CROCOFUR_SHOP",
     "Description": "",
     "Parameters": [
     ]
@@ -1776,7 +1776,7 @@
   {
     "Index": "0x0080",
     "ReturnType": "void",
-    "Name": "FUNCTION_0080",
+    "Name": "BOOK_SHOP",
     "Description": "",
     "Parameters": [
       {
@@ -1789,7 +1789,7 @@
   {
     "Index": "0x0081",
     "ReturnType": "void",
-    "Name": "FUNCTION_0081",
+    "Name": "PRODUCE_SHOP",
     "Description": "",
     "Parameters": [
     ]
@@ -1797,7 +1797,7 @@
   {
     "Index": "0x0082",
     "ReturnType": "void",
-    "Name": "FUNCTION_0082",
+    "Name": "BOOK_READ",
     "Description": "Code function name: cmpBook_sub_8114E452",
     "Parameters": [
     ]
@@ -1823,18 +1823,18 @@
   {
     "Index": "0x0084",
     "ReturnType": "void",
-    "Name": "FUNCTION_0084",
+    "Name": "GIVE_SL_SKILL",
     "Description": "",
     "Parameters": [
       {
         "Type": "int",
         "Name": "param1",
-        "Description": ""
+        "Description": "Requires more investigation"
       },
       {
         "Type": "int",
         "Name": "param2",
-        "Description": ""
+        "Description": "requires more investigation"
       }
     ]
   },
