@@ -1920,8 +1920,8 @@
   {
     "Index": "0x008d",
     "ReturnType": "void",
-    "Name": "FUNCTION_008D",
-    "Description": "",
+    "Name": "CALL_MARIE_DNG_TV",
+    "Description": "Calls for the team to meet infront of the tv to maries dungeon.",
     "Parameters": [
     ]
   },
