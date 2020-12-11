@@ -3013,8 +3013,8 @@
     {
         "Index": "0x00d1",
         "ReturnType": "int",
-        "Name": "FUNCTION_00D1",
-        "Description": "0016E850",
+        "Name": "GET_YEN",
+        "Description": "Returns how much yen you have.",
         "Parameters":
         [
         ]
@@ -3022,28 +3022,28 @@
     {
         "Index": "0x00d2",
         "ReturnType": "void",
-        "Name": "G_DATA_FUNCTION_00D2",
-        "Description": "0016E880",
+        "Name": "GIVE_YEN",
+        "Description": "Gives Amount yen to the player",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
-				"Description": ""
+				"Name": "Amount",
+				"Description": "Amount to give to player"
 			}
         ]
     },
     {
         "Index": "0x00d3",
         "ReturnType": "void",
-        "Name": "G_DATA_FUNCTION_00D3",
-        "Description": "0016E910",
+        "Name": "REMOVE_YEN",
+        "Description": "Takes away Amount yen from player.",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
-				"Description": ""
+				"Name": "Amount",
+				"Description": "Amount of yen to remove"
 			}
         ]
     },
