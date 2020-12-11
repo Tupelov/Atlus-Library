@@ -1787,8 +1787,8 @@
     {
         "Index": "0x0082",
         "ReturnType": "int",
-        "Name": "FUNCTION_0082",
-        "Description": "001C28C0",
+        "Name": "GET_DAY_OF_WEEK",
+        "Description": "Returns the current day of the week.",
         "Parameters":
         [
         ]
