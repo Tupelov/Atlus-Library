@@ -66,13 +66,13 @@
     {
         "Index": "0x0006",
         "ReturnType": "void",
-        "Name": "FUNCTION_0006",
-        "Description": "003A2790",
+        "Name": "SET_MASK",
+        "Description": "Sets bit mask for SEL()",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "mask",
 				"Description": ""
 			}
         ]
@@ -80,13 +80,13 @@
     {
         "Index": "0x0007",
         "ReturnType": "int",
-        "Name": "FUNCTION_0007",
-        "Description": "0035ADB0",
+        "Name": "BIT_CHK",
+        "Description": "Checks if bit is true or not",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "bit",
 				"Description": ""
 			}
         ]
@@ -94,13 +94,13 @@
     {
         "Index": "0x0008",
         "ReturnType": "void",
-        "Name": "CMN_FUNCTION_0008",
-        "Description": "0035ADF0",
+        "Name": "BIT_ON",
+        "Description": "Turns on bit",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "bit",
 				"Description": ""
 			}
         ]
@@ -108,13 +108,13 @@
     {
         "Index": "0x0009",
         "ReturnType": "void",
-        "Name": "CMN_FUNCTION_0009",
-        "Description": "0035AE50",
+        "Name": "BIT_OFF",
+        "Description": "Turns off bit",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "bit",
 				"Description": ""
 			}
         ]
@@ -617,18 +617,18 @@
     {
         "Index": "0x0028",
         "ReturnType": "void",
-        "Name": "FUNCTION_0028",
-        "Description": "003A2B00",
+        "Name": "SET_SEL_CHOICE_KEYBIND",
+        "Description": "Bind button to SEL choice",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
-				"Description": ""
+				"Name": "button",
+				"Description": "6 is circle"
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "selection",
 				"Description": ""
 			}
         ]
@@ -1653,13 +1653,13 @@
     {
         "Index": "0x0077",
         "ReturnType": "void",
-        "Name": "FUNCTION_0077",
-        "Description": "004239F0",
+        "Name": "TOWN_MAP",
+        "Description": "Calls town map with pointer at given index",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "index",
 				"Description": ""
 			}
         ]
@@ -1700,7 +1700,7 @@
     {
         "Index": "0x007a",
         "ReturnType": "void",
-        "Name": "NEXT_DAY()",
+        "Name": "NEXT_DAY",
         "Description": "Goes to next day",
         "Parameters":
         [
@@ -1769,8 +1769,8 @@
     {
         "Index": "0x0080",
         "ReturnType": "int",
-        "Name": "FUNCTION_0080",
-        "Description": "001C2860",
+        "Name": "GET_MONTH",
+        "Description": "Returns current month",
         "Parameters":
         [
         ]
@@ -1778,8 +1778,8 @@
     {
         "Index": "0x0081",
         "ReturnType": "int",
-        "Name": "FUNCTION_0081",
-        "Description": "001C2890",
+        "Name": "GET_DAY_OF_MONTH",
+        "Description": "Returns current day of the month",
         "Parameters":
         [
         ]
@@ -1805,28 +1805,28 @@
     {
         "Index": "0x0084",
         "ReturnType": "int",
-        "Name": "FUNCTION_0084",
-        "Description": "001C2920",
+        "Name": "CHECK_TIME_SPAN",
+        "Description": "Returns true if within the two dates",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "month1",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "day1",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param3",
+				"Name": "month2",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param4",
+				"Name": "day2",
 				"Description": ""
 			}
         ]
@@ -2754,13 +2754,13 @@
     {
         "Index": "0x00c1",
         "ReturnType": "int",
-        "Name": "FUNCTION_00C1",
-        "Description": "001C3140",
+        "Name": "GET_CUR_HP",
+        "Description": "Get current hp of the id given",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "id",
 				"Description": ""
 			}
         ]
@@ -2768,13 +2768,13 @@
     {
         "Index": "0x00c2",
         "ReturnType": "int",
-        "Name": "FUNCTION_00C2",
-        "Description": "001C31F0",
+        "Name": "GET_TOT_HP",
+        "Description": "Get total hp of the id given",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "id",
 				"Description": ""
 			}
         ]
@@ -2782,13 +2782,13 @@
     {
         "Index": "0x00c3",
         "ReturnType": "int",
-        "Name": "FUNCTION_00C3",
-        "Description": "001C3240",
+        "Name": "GET_CUR_SP",
+        "Description": "Get current sp of the id given",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "id",
 				"Description": ""
 			}
         ]
@@ -2796,13 +2796,13 @@
     {
         "Index": "0x00c4",
         "ReturnType": "int",
-        "Name": "FUNCTION_00C4",
-        "Description": "001C32F0",
+        "Name": "GET_TOT_SP",
+        "Description": "Get total sp of the id given",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "id",
 				"Description": ""
 			}
         ]
@@ -2871,13 +2871,13 @@
     {
         "Index": "0x00c9",
         "ReturnType": "int",
-        "Name": "FUNCTION_00C9",
-        "Description": "001C3600",
+        "Name": "CHECK_FATIGUE",
+        "Description": "Returns fatigue level of id given. 0 is good, 2 is best, 3 or more is bad.",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "id",
 				"Description": ""
 			}
         ]
@@ -3050,13 +3050,13 @@
     {
         "Index": "0x00d4",
         "ReturnType": "int",
-        "Name": "FUNCTION_00D4",
-        "Description": "0016E700",
+        "Name": "GET_PARTY_ID",
+        "Description": "Get id from the given slot in party",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "slot",
 				"Description": ""
 			}
         ]
@@ -3983,18 +3983,18 @@
     {
         "Index": "0x0117",
         "ReturnType": "void",
-        "Name": "FUNCTION_0117",
-        "Description": "001C3190",
+        "Name": "SET_HP",
+        "Description": "Sets hp of given id",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "id",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "hp",
 				"Description": ""
 			}
         ]
@@ -4002,18 +4002,18 @@
     {
         "Index": "0x0118",
         "ReturnType": "void",
-        "Name": "FUNCTION_0118",
-        "Description": "001C3290",
+        "Name": "SET_SP",
+        "Description": "Sets sp of id given",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "id",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "sp",
 				"Description": ""
 			}
         ]
@@ -5570,8 +5570,8 @@
     {
         "Index": "0x0183",
         "ReturnType": "void",
-        "Name": "FUNCTION_0183",
-        "Description": "001C55A0",
+        "Name": "CALL_BTL_SFX",
+        "Description": "Calls battle sfx based on unknown indices",
         "Parameters":
         [
 			{
@@ -5711,8 +5711,8 @@
     {
         "Index": "0x018c",
         "ReturnType": "void",
-        "Name": "FUNCTION_018C",
-        "Description": "0017F3F0",
+        "Name": "SOFT_RESET",
+        "Description": "Brings game back to title screen",
         "Parameters":
         [
         ]
