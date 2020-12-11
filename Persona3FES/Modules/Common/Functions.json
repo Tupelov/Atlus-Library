@@ -3134,14 +3134,14 @@
     {
         "Index": "0x00da",
         "ReturnType": "int",
-        "Name": "COMU_FUNCTION_00DA",
-        "Description": "00360180",
+        "Name": "GET_SL_LEVEL",
+        "Description": "Returns the social link rank of SLID",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
-				"Description": ""
+				"Name": "SLID",
+				"Description": "A numeric id for the social link."
 			}
         ]
     },

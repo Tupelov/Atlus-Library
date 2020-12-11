@@ -27,6 +27,7 @@ FUNCTION_00C4 int GET_TOT_SP(int id);
 FUNCTION_00C9 int CHECK_FATIGUE(int id);
 FUNCTION_00D4 int GET_PARTY_ID(int slot);
 FUNCTION_00D5 void NS_ADD_MEMBER(int param0);
+COMU_FUNCTION_00DA int GET_SL_LEVEL(int SLID);
 FUNCTION_0168 void CALL_SFX(int param0, int param1);
 FUNCTION_0117 void SET_HP(int id, int hp);
 FUNCTION_0118 void SET_SP(int id, int sp);
