@@ -650,13 +650,13 @@
     {
         "Index": "0x002a",
         "ReturnType": "void",
-        "Name": "FUNCTION_002A",
-        "Description": "0040CB60",
+        "Name": "CALL_FACILITY",
+        "Description": "Loads facility from parameter given",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "facility",
 				"Description": ""
 			}
         ]
@@ -1574,13 +1574,13 @@
     {
         "Index": "0x0071",
         "ReturnType": "void",
-        "Name": "FUNCTION_0071",
-        "Description": "002C7290",
+        "Name": "AI_ACT_SKILL",
+        "Description": "Perform skill given",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "skill",
 				"Description": ""
 			}
         ]
@@ -1834,18 +1834,18 @@
     {
         "Index": "0x0085",
         "ReturnType": "void",
-        "Name": "FUNCTION_0085",
-        "Description": "0016E500",
+        "Name": "ADD_MEMBER",
+        "Description": "Adds given party member id to party",
         "Parameters":
         [
 			{
 				"Type": "int",
 				"Name": "param1",
-				"Description": "Unknown type; assumed int"
+				"Description": "Unknown. Set to 0"
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "id",
 				"Description": ""
 			}
         ]
@@ -2975,18 +2975,18 @@
     {
         "Index": "0x00cf",
         "ReturnType": "int",
-        "Name": "COMU_FUNCTION_00CF",
-        "Description": "0035F780",
+        "Name": "CHANGE_SOCIAL_STAT",
+        "Description": "Increases given stat by given amount",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
-				"Description": ""
+				"Name": "stat",
+				"Description": "0 = academics, 1 = charm, 2 = courage"
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "amount",
 				"Description": ""
 			}
         ]
@@ -2994,18 +2994,18 @@
     {
         "Index": "0x00d0",
         "ReturnType": "void",
-        "Name": "COMU_FUNCTION_00D0",
-        "Description": "0035FAD0",
+        "Name": "CHANGE_PERSONA_STAT",
+        "Description": "Increases current persona's given stat with given amount",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
-				"Description": ""
+				"Name": "stat",
+				"Description": "0 = strength, 1 = magic, 2 = endurance, 3 = agility, 4 = luck"
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "amount",
 				"Description": ""
 			}
         ]
@@ -3064,8 +3064,8 @@
     {
         "Index": "0x00d5",
         "ReturnType": "void",
-        "Name": "NS_ADD_MEMBER",
-        "Description": "Found in member swapping function but didn't work through testing",
+        "Name": "REMOVE_MEMBER",
+        "Description": "Removes given party member id",
         "Parameters":
         [
 			{
@@ -3393,13 +3393,13 @@
     {
         "Index": "0x00ef",
         "ReturnType": "int",
-        "Name": "FUNCTION_00EF",
-        "Description": "002CB320",
+        "Name": "AI_HAS_SKILL",
+        "Description": "Returns true if ai has the skill",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "skill",
 				"Description": ""
 			}
         ]
@@ -3941,13 +3941,13 @@
     {
         "Index": "0x0114",
         "ReturnType": "int",
-        "Name": "FUNCTION_0114",
-        "Description": "001C3DE0",
+        "Name": "GET_CNT",
+        "Description": "Gets value at given index",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "index",
 				"Description": ""
 			}
         ]
@@ -3955,18 +3955,18 @@
     {
         "Index": "0x0115",
         "ReturnType": "void",
-        "Name": "FUNCTION_0115",
-        "Description": "001C3E20",
+        "Name": "SET_CNT",
+        "Description": "Sets value at given index",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "index",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "value",
 				"Description": ""
 			}
         ]
@@ -4035,18 +4035,18 @@
     {
         "Index": "0x011a",
         "ReturnType": "int",
-        "Name": "FUNCTION_011A",
-        "Description": "001C3730",
+        "Name": "GET_ITEM",
+        "Description": "Returns current amount of items",
         "Parameters":
         [
 			{
 				"Type": "int",
 				"Name": "param1",
-				"Description": ""
+				"Description": "Unknown. Set to 1"
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "id",
 				"Description": ""
 			}
         ]
@@ -4054,23 +4054,23 @@
     {
         "Index": "0x011b",
         "ReturnType": "void",
-        "Name": "FUNCTION_011B",
-        "Description": "001C37A0",
+        "Name": "SET_ITEM",
+        "Description": "Sets given amount to given item id",
         "Parameters":
         [
 			{
 				"Type": "int",
 				"Name": "param1",
+				"Description": "Unknown. Set to 1"
+			},
+			{
+				"Type": "int",
+				"Name": "id",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
-				"Description": ""
-			},
-			{
-				"Type": "int",
-				"Name": "param3",
+				"Name": "amount",
 				"Description": ""
 			}
         ]
@@ -4395,13 +4395,13 @@
     {
         "Index": "0x0133",
         "ReturnType": "int",
-        "Name": "FUNCTION_0133",
-        "Description": "002D13E0",
+        "Name": "RNG",
+        "Description": "Returns random number from 0 to range given",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "range",
 				"Description": ""
 			}
         ]
@@ -6939,19 +6939,19 @@
     {
         "Index": "0x01e3",
         "ReturnType": "int",
-        "Name": "FUNCTION_01E3",
-        "Description": "001C3410",
+        "Name": "GET_SOCIAL_RANK",
+        "Description": "Returns rank of given social stat",
         "Parameters":
         [
 			{
 				"Type": "int",
 				"Name": "param1",
-				"Description": ""
+				"Description": "Unknown. Set to 1"
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
-				"Description": ""
+				"Name": "stat",
+				"Description": "0 = academics, 1 = charm, 2 = courage"
 			}
         ]
     },
@@ -7031,23 +7031,23 @@
     {
         "Index": "0x01eb",
         "ReturnType": "void",
-        "Name": "FUNCTION_01EB",
-        "Description": "00188330",
+        "Name": "SET_DATE",
+        "Description": "Sets next date",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "month",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "day",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param3",
+				"Name": "time",
 				"Description": ""
 			}
         ]
