@@ -1,5 +1,5 @@
-# Persona-Library
-Libraries for decompiling Persona game script files. Original library by Sierra.
+# Atlus-Library
+Libraries for decompiling Atlus game script files. Original P4G library by Sierra. SMT 3 by zarroboogs.
 
 Functions that start with "NS_"(Not Sure) are marked as not fully understood and may require more investigation.
  Version.txt should be updated with each new commit to help with knowing when lib changes happen.
