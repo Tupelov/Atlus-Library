@@ -650,11 +650,13 @@
     {
         "Index": "0x002a",
         "ReturnType": "void",
+        "Name": "CALL_FCL",
         "Description": "Calls a facility eg. velvet room, shop etc.",
         "Parameters":
         [
 			{
 				"Type": "int",
+				"Name": "FacilityID",
 				"Description": "To do: Make this an enum"
 			}
         ]
