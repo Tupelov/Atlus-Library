@@ -1357,7 +1357,7 @@
     {
         "Index": "0x005f",
         "ReturnType": "void",
-        "Name": "FUNCTION_005F",
+        "Name": "VOICELINE_FOR_ACTION",
         "Description": "002CC330",
         "Parameters":
         [
@@ -1565,7 +1565,7 @@
     {
         "Index": "0x0070",
         "ReturnType": "void",
-        "Name": "FUNCTION_0070",
+        "Name": "AI_ACT_WEAPON",
         "Description": "002C7250",
         "Parameters":
         [
@@ -1580,7 +1580,7 @@
         [
 			{
 				"Type": "int",
-				"Name": "skill",
+				"Name": "skill_ID",
 				"Description": ""
 			}
         ]
@@ -1588,7 +1588,7 @@
     {
         "Index": "0x0072",
         "ReturnType": "void",
-        "Name": "FUNCTION_0072",
+        "Name": "AI_ASK_TO_LEAVE",
         "Description": "002C73B0",
         "Parameters":
         [
@@ -1597,7 +1597,7 @@
     {
         "Index": "0x0073",
         "ReturnType": "void",
-        "Name": "FUNCTION_0073",
+        "Name": "AI_ACT_WAIT",
         "Description": "002C73F0",
         "Parameters":
         [
