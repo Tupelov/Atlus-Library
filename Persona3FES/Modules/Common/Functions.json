@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "Index": "0x0000",
         "ReturnType": "void",
@@ -589,7 +589,7 @@
     {
         "Index": "0x0026",
         "ReturnType": "void",
-        "Name": "HELP_MSG",
+        "Name": "MSG_HELP",
         "Description": "Displays msg on help screen",
         "Parameters":
         [
@@ -603,13 +603,13 @@
     {
         "Index": "0x0027",
         "ReturnType": "void",
-        "Name": "MSG_FUNCTION_0027",
+        "Name": "MSG_NAVI",
         "Description": "003A2330",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "Type",
 				"Description": ""
 			}
         ]
@@ -650,14 +650,12 @@
     {
         "Index": "0x002a",
         "ReturnType": "void",
-        "Name": "CALL_FACILITY",
-        "Description": "Loads facility from parameter given",
+        "Description": "Calls a facility eg. velvet room, shop etc.",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "facility",
-				"Description": ""
+				"Description": "To do: Make this an enum"
 			}
         ]
     },
@@ -1653,7 +1651,7 @@
     {
         "Index": "0x0077",
         "ReturnType": "void",
-        "Name": "TOWN_MAP",
+        "Name": "CALL_MAP",
         "Description": "Calls town map with pointer at given index",
         "Parameters":
         [
