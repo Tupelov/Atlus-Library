@@ -2,7 +2,7 @@
   {
     "Index": "0x3000",
     "ReturnType": "void",
-    "Name": "EVT_NPC_MODEL_LOAD",
+    "Name": "SPAWN_NPC",
     "Description": "",
     "Parameters": [
       {
@@ -33,7 +33,7 @@
   {
     "Index": "0x3002",
     "ReturnType": "bool",
-    "Name": "CMM_EXIST",
+    "Name": "EVT_FUNCTION_0002",
     "Description": "",
     "Parameters": [
       {
@@ -46,7 +46,7 @@
   {
     "Index": "0x3003",
     "ReturnType": "int",
-    "Name": "CMM_GET_LV",
+    "Name": "GET_SL_LEVEL",
     "Description": "",
     "Parameters": [
       {
@@ -59,7 +59,7 @@
   {
     "Index": "0x3004",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_0004",
+    "Name": "INCREASE_SL",
     "Description": "",
     "Parameters": [
       {
@@ -184,7 +184,7 @@
   {
     "Index": "0x300e",
     "ReturnType": "bool",
-    "Name": "CMM_CHK_LVUP",
+    "Name": "CHECK_IF_SL_LVLUP",
     "Description": "",
     "Parameters": [
       {
@@ -223,7 +223,7 @@
   {
     "Index": "0x3011",
     "ReturnType": "void",
-    "Name": "CMM_SET_REVERSE",
+    "Name": "REVERSE_SL",
     "Description": "",
     "Parameters": [
       {
@@ -241,7 +241,7 @@
   {
     "Index": "0x3012",
     "ReturnType": "void",
-    "Name": "CMM_SET_BROKEN",
+    "Name": "BREAK_SL",
     "Description": "",
     "Parameters": [
       {
@@ -559,7 +559,7 @@
   {
     "Index": "0x302c",
     "ReturnType": "void",
-    "Name": "CMM_RANKUP",
+    "Name": "SL_LVLUP_VISUAL",
     "Description": "",
     "Parameters": [
       {
@@ -654,7 +654,7 @@
   {
     "Index": "0x3031",
     "ReturnType": "void",
-    "Name": "CMM_ADD_POINT_ID",
+    "Name": "EVT_FUNCTION_0031",
     "Description": "",
     "Parameters": [
       {
@@ -733,7 +733,7 @@
   {
     "Index": "0x3039",
     "ReturnType": "void",
-    "Name": "NPC_QUEST_START",
+    "Name": "ACCEPT_QUEST",
     "Description": "",
     "Parameters": [
       {
@@ -746,7 +746,7 @@
   {
     "Index": "0x303a",
     "ReturnType": "void",
-    "Name": "NPC_QUEST_END",
+    "Name": "COMPLETE_QUEST",
     "Description": "",
     "Parameters": [
       {

@@ -15,7 +15,7 @@
   {
     "Index": "0x0001",
     "ReturnType": "void",
-    "Name": "MSG_WND_DSP",
+    "Name": "OPEN_MSG_WIN",
     "Description": "",
     "Parameters": [
     ]
@@ -23,7 +23,7 @@
   {
     "Index": "0x0002",
     "ReturnType": "void",
-    "Name": "MSG_WND_CLS",
+    "Name": "CLOSE_MSG_WIN",
     "Description": "",
     "Parameters": [
     ]
@@ -83,7 +83,7 @@
   {
     "Index": "0x0007",
     "ReturnType": "void",
-    "Name": "FUNCTION_0007",
+    "Name": "SET_SEL_CHOICE_KEYBIND",
     "Description": "",
     "Parameters": [
       {
@@ -101,7 +101,7 @@
   {
     "Index": "0x0008",
     "ReturnType": "void",
-    "Name": "FUNCTION_0008",
+    "Name": "SET_MASK",
     "Description": "",
     "Parameters": [
       {
@@ -114,7 +114,7 @@
   {
     "Index": "0x0009",
     "ReturnType": "void",
-    "Name": "MSG_SYSTEM",
+    "Name": "HELP_MSG",
     "Description": "",
     "Parameters": [
       {
@@ -166,7 +166,7 @@
   {
     "Index": "0x000d",
     "ReturnType": "int",
-    "Name": "FUNCTION_000D",
+    "Name": "RNG",
     "Description": "",
     "Parameters": [
       {
@@ -200,7 +200,7 @@
   {
     "Index": "0x0010",
     "ReturnType": "void",
-    "Name": "WAIT",
+    "Name": "NS_WAIT",
     "Description": "",
     "Parameters": [
       {
@@ -239,7 +239,7 @@
   {
     "Index": "0x0013",
     "ReturnType": "void",
-    "Name": "PUT",
+    "Name": "FUNCTION_0013",
     "Description": "",
     "Parameters": [
       {
@@ -252,7 +252,7 @@
   {
     "Index": "0x0014",
     "ReturnType": "void",
-    "Name": "PUTS",
+    "Name": "FUNCTION_0014",
     "Description": "",
     "Parameters": [
       {
@@ -265,7 +265,7 @@
   {
     "Index": "0x0015",
     "ReturnType": "void",
-    "Name": "FADEIN",
+    "Name": "FUNCTION_0015",
     "Description": "",
     "Parameters": [
       {
@@ -278,7 +278,7 @@
   {
     "Index": "0x0016",
     "ReturnType": "void",
-    "Name": "FADEOUT",
+    "Name": "FADE",
     "Description": "",
     "Parameters": [
       {
@@ -296,7 +296,7 @@
   {
     "Index": "0x0017",
     "ReturnType": "void",
-    "Name": "FUNCTION_0017",
+    "Name": "FADE_SYNC",
     "Description": "",
     "Parameters": [
     ]
@@ -352,7 +352,7 @@
   {
     "Index": "0x0019",
     "ReturnType": "int",
-    "Name": "SCR_RUN",
+    "Name": "FUNCTION_0019",
     "Description": "",
     "Parameters": [
       {
@@ -476,7 +476,7 @@
   {
     "Index": "0x0021",
     "ReturnType": "int",
-    "Name": "FUNCTION_0021",
+    "Name": "GET_CNT",
     "Description": "",
     "Parameters": [
       {
@@ -489,7 +489,7 @@
   {
     "Index": "0x0022",
     "ReturnType": "void",
-    "Name": "FUNCTION_0022",
+    "Name": "SET_CNT",
     "Description": "",
     "Parameters": [
       {
@@ -548,7 +548,7 @@
   {
     "Index": "0x0025",
     "ReturnType": "int",
-    "Name": "SEL_PROMPT",
+    "Name": "ADV_SEL",
     "Description": "",
     "Parameters": [
       {
@@ -800,7 +800,7 @@
   {
     "Index": "0x0033",
     "ReturnType": "int",
-    "Name": "FUNCTION_0033",
+    "Name": "GET_MONTH",
     "Description": "",
     "Parameters": [
     ]
@@ -808,7 +808,7 @@
   {
     "Index": "0x0034",
     "ReturnType": "int",
-    "Name": "FUNCTION_0034",
+    "Name": "GET_DAY_OF_MONTH",
     "Description": "",
     "Parameters": [
     ]
@@ -816,7 +816,7 @@
   {
     "Index": "0x0035",
     "ReturnType": "int",
-    "Name": "FUNCTION_0035",
+    "Name": "GET_DAY_OF_WEEK",
     "Description": "",
     "Parameters": [
     ]
@@ -824,7 +824,7 @@
   {
     "Index": "0x0036",
     "ReturnType": "int",
-    "Name": "FUNCTION_0036",
+    "Name": "GET_TIME_OF_DAY",
     "Description": "",
     "Parameters": [
     ]
@@ -832,7 +832,7 @@
   {
     "Index": "0x0037",
     "ReturnType": "int",
-    "Name": "CHK_DAYS",
+    "Name": "DATE_CHK",
     "Description": "",
     "Parameters": [
       {
@@ -850,7 +850,7 @@
   {
     "Index": "0x0038",
     "ReturnType": "void",
-    "Name": "PARTY_IN",
+    "Name": "ADD_PARTY",
     "Description": "",
     "Parameters": [
       {
@@ -863,7 +863,7 @@
   {
     "Index": "0x0039",
     "ReturnType": "void",
-    "Name": "PARTY_OUT",
+    "Name": "RM_PARTY",
     "Description": "",
     "Parameters": [
       {
@@ -884,7 +884,7 @@
   {
     "Index": "0x003b",
     "ReturnType": "void",
-    "Name": "CALL_LMAP",
+    "Name": "TOWN_MAP",
     "Description": "",
     "Parameters": [
       {
@@ -897,7 +897,7 @@
   {
     "Index": "0x003c",
     "ReturnType": "void",
-    "Name": "CALL_TV",
+    "Name": "TV_STUDIO",
     "Description": "",
     "Parameters": [
     ]
@@ -905,7 +905,7 @@
   {
     "Index": "0x003d",
     "ReturnType": "void",
-    "Name": "FUNCTION_003D",
+    "Name": "NEXT_DATE",
     "Description": "",
     "Parameters": [
       {
@@ -928,7 +928,7 @@
   {
     "Index": "0x003e",
     "ReturnType": "void",
-    "Name": "FUNCTION_003E",
+    "Name": "CALL_FLOOR",
     "Description": "",
     "Parameters": [
       {
@@ -941,7 +941,7 @@
   {
     "Index": "0x003f",
     "ReturnType": "void",
-    "Name": "CALL_DNG_FLOOR",
+    "Name": "CALL_DUNGEON",
     "Description": "",
     "Parameters": [
       {
@@ -959,7 +959,7 @@
   {
     "Index": "0x0040",
     "ReturnType": "int",
-    "Name": "FUNCTION_0040",
+    "Name": "CHECK_TIME_SPAN",
     "Description": "",
     "Parameters": [
       {
@@ -987,7 +987,7 @@
   {
     "Index": "0x0041",
     "ReturnType": "void",
-    "Name": "MDL_EMOTE_ANIM",
+    "Name": "FUNCTION_0041",
     "Description": "",
     "Parameters": [
       {
@@ -1005,7 +1005,7 @@
   {
     "Index": "0x0042",
     "ReturnType": "int",
-    "Name": "SET_PC_PARAM",
+    "Name": "GET_SOCIAL_STATS",
     "Description": "",
     "Parameters": [
       {
@@ -1041,7 +1041,7 @@
   {
     "Index": "0x0044",
     "ReturnType": "int",
-    "Name": "GET_PC_PARAM",
+    "Name": "FUNCTION_0044",
     "Description": "",
     "Parameters": [
       {
@@ -1126,7 +1126,7 @@
   {
     "Index": "0x0049",
     "ReturnType": "void",
-    "Name": "CALL_WEAPON_SHOP",
+    "Name": "DAIDARA_SHOP",
     "Description": "",
     "Parameters": [
     ]
@@ -1134,7 +1134,7 @@
   {
     "Index": "0x004a",
     "ReturnType": "void",
-    "Name": "CALL_ITEM_SHOP",
+    "Name": "SHIROKU_SHOP",
     "Description": "",
     "Parameters": [
     ]
@@ -1142,7 +1142,7 @@
   {
     "Index": "0x004b",
     "ReturnType": "void",
-    "Name": "CALL_COMBINE_SHOP",
+    "Name": "VELVET_ROOM",
     "Description": "",
     "Parameters": [
     ]
@@ -1150,7 +1150,7 @@
   {
     "Index": "0x004c",
     "ReturnType": "int",
-    "Name": "FUNCTION_004C",
+    "Name": "GET_WEATHER",
     "Description": "",
     "Parameters": [
     ]
@@ -1174,7 +1174,7 @@
   {
     "Index": "0x004f",
     "ReturnType": "void",
-    "Name": "CALL_TITLE",
+    "Name": "SOFT_RESET",
     "Description": "",
     "Parameters": [
     ]
@@ -1182,7 +1182,7 @@
   {
     "Index": "0x0050",
     "ReturnType": "int",
-    "Name": "ADD_PC_MONEY",
+    "Name": "ADD_YEN",
     "Description": "",
     "Parameters": [
       {
@@ -1195,7 +1195,7 @@
   {
     "Index": "0x0051",
     "ReturnType": "void",
-    "Name": "CALL_NAME_ENTRY",
+    "Name": "FUNCTION_0051",
     "Description": "",
     "Parameters": [
     ]
@@ -1203,7 +1203,7 @@
   {
     "Index": "0x0052",
     "ReturnType": "int",
-    "Name": "SET_ITEM_NUM",
+    "Name": "GET_ITEM",
     "Description": "",
     "Parameters": [
       {
@@ -1216,7 +1216,7 @@
   {
     "Index": "0x0053",
     "ReturnType": "void",
-    "Name": "FUNCTION_0053",
+    "Name": "SET_ITEM",
     "Description": "",
     "Parameters": [
       {
@@ -1234,7 +1234,7 @@
   {
     "Index": "0x0054",
     "ReturnType": "int",
-    "Name": "FUNCTION_0054",
+    "Name": "GET_EQUIPMENT_ID",
     "Description": "",
     "Parameters": [
       {
@@ -1283,7 +1283,7 @@
   {
     "Index": "0x0057",
     "ReturnType": "int",
-    "Name": "FUNCTION_0057",
+    "Name": "NS_SAVE",
     "Description": "",
     "Parameters": [
     ]
@@ -1307,7 +1307,7 @@
   {
     "Index": "0x005a",
     "ReturnType": "int",
-    "Name": "FUNCTION_005A",
+    "Name": "GET_PARTY_MEMBER_ID",
     "Description": "",
     "Parameters": [
       {
@@ -1333,7 +1333,7 @@
   {
     "Index": "0x005c",
     "ReturnType": "int",
-    "Name": "FUNCTION_005C",
+    "Name": "NAVI_BU_OPEN",
     "Description": "",
     "Parameters": [
       {
@@ -1361,7 +1361,7 @@
   {
     "Index": "0x005d",
     "ReturnType": "void",
-    "Name": "FUNCTION_005D",
+    "Name": "NAVI_BU_CLOSE",
     "Description": "",
     "Parameters": [
       {
@@ -1374,7 +1374,7 @@
   {
     "Index": "0x005e",
     "ReturnType": "int",
-    "Name": "FUNCTION_005E",
+    "Name": "GET_CUR_HP",
     "Description": "",
     "Parameters": [
       {
@@ -1387,7 +1387,7 @@
   {
     "Index": "0x005f",
     "ReturnType": "int",
-    "Name": "FUNCTION_005F",
+    "Name": "GET_TOT_HP",
     "Description": "",
     "Parameters": [
       {
@@ -1400,7 +1400,7 @@
   {
     "Index": "0x0060",
     "ReturnType": "void",
-    "Name": "FUNCTION_0060",
+    "Name": "SET_HP",
     "Description": "",
     "Parameters": [
       {
@@ -1418,7 +1418,7 @@
   {
     "Index": "0x0061",
     "ReturnType": "int",
-    "Name": "FUNCTION_0061",
+    "Name": "GET_CUR_SP",
     "Description": "",
     "Parameters": [
       {
@@ -1431,7 +1431,7 @@
   {
     "Index": "0x0062",
     "ReturnType": "int",
-    "Name": "FUNCTION_0062",
+    "Name": "GET_TOT_SP",
     "Description": "",
     "Parameters": [
       {
@@ -1444,7 +1444,7 @@
   {
     "Index": "0x0063",
     "ReturnType": "void",
-    "Name": "FUNCTION_0063",
+    "Name": "SET_SP",
     "Description": "",
     "Parameters": [
       {
@@ -1462,7 +1462,7 @@
   {
     "Index": "0x0064",
     "ReturnType": "void",
-    "Name": "MOVIE_PLAY",
+    "Name": "PLAY_CUTSCENE",
     "Description": "",
     "Parameters": [
       {
@@ -1483,7 +1483,7 @@
   {
     "Index": "0x0066",
     "ReturnType": "void",
-    "Name": "DATE_DISP",
+    "Name": "SHOW_DATE",
     "Description": "",
     "Parameters": [
       {
@@ -1496,7 +1496,7 @@
   {
     "Index": "0x0067",
     "ReturnType": "void",
-    "Name": "CALL_CLEAR_SAVE",
+    "Name": "NG_PLUS_SAVE",
     "Description": "",
     "Parameters": [
     ]
@@ -1512,7 +1512,7 @@
   {
     "Index": "0x0069",
     "ReturnType": "void",
-    "Name": "CALL_FOOD_COURT",
+    "Name": "JUNES_FOODCOURT",
     "Description": "",
     "Parameters": [
     ]
@@ -1520,7 +1520,7 @@
   {
     "Index": "0x006a",
     "ReturnType": "void",
-    "Name": "CALL_STAFF_ROLL",
+    "Name": "BAD_END_CREDITS",
     "Description": "",
     "Parameters": [
     ]
@@ -1575,7 +1575,7 @@
   {
     "Index": "0x006f",
     "ReturnType": "void",
-    "Name": "BGM",
+    "Name": "CALL_BGM",
     "Description": "",
     "Parameters": [
       {
@@ -1588,7 +1588,7 @@
   {
     "Index": "0x0070",
     "ReturnType": "void",
-    "Name": "BGM_STOP",
+    "Name": "STOP_BGM",
     "Description": "",
     "Parameters": [
       {
@@ -1601,7 +1601,7 @@
   {
     "Index": "0x0071",
     "ReturnType": "void",
-    "Name": "EVT_SE_PLAY",
+    "Name": "PLAY_SOUNDEFFECT",
     "Description": "",
     "Parameters": [
       {
@@ -1614,7 +1614,7 @@
   {
     "Index": "0x0072",
     "ReturnType": "void",
-    "Name": "EVT_SE_STOP",
+    "Name": "FUNCTION_0072",
     "Description": "",
     "Parameters": [
       {
@@ -1627,7 +1627,7 @@
   {
     "Index": "0x0073",
     "ReturnType": "void",
-    "Name": "EVT_SE_PLAY2",
+    "Name": "FUNCTION_0073",
     "Description": "",
     "Parameters": [
       {
@@ -1640,7 +1640,7 @@
   {
     "Index": "0x0074",
     "ReturnType": "void",
-    "Name": "EVT_SE_STOP2",
+    "Name": "FUNCTION_0074",
     "Description": "",
     "Parameters": [
       {

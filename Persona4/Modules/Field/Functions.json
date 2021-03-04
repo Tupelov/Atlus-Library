@@ -10,7 +10,7 @@
   {
     "Index": "0x1001",
     "ReturnType": "void",
-    "Name": "FLD_FUNCTION_0001",
+    "Name": "GOTO_REL_FLOOR",
     "Description": "",
     "Parameters": [
       {
@@ -23,7 +23,7 @@
   {
     "Index": "0x1002",
     "ReturnType": "int",
-    "Name": "FLD_FUNCTION_0002",
+    "Name": "GET_FLOOR_ID",
     "Description": "",
     "Parameters": [
     ]
@@ -31,7 +31,7 @@
   {
     "Index": "0x1003",
     "ReturnType": "void",
-    "Name": "FLD_FUNCTION_0003",
+    "Name": "RESET_FLOOR",
     "Description": "",
     "Parameters": [
     ]
@@ -191,7 +191,7 @@
   {
     "Index": "0x100d",
     "ReturnType": "int",
-    "Name": "FLD_NPC_MODEL_LOAD",
+    "Name": "LOAD_FIELD_OBJECT",
     "Description": "",
     "Parameters": [
       {
@@ -346,7 +346,7 @@
   {
     "Index": "0x1017",
     "ReturnType": "void",
-    "Name": "FLD_CAMERA_ROTATE",
+    "Name": "FLD_FUNCTION_0017",
     "Description": "",
     "Parameters": [
       {
@@ -364,7 +364,7 @@
   {
     "Index": "0x1018",
     "ReturnType": "void",
-    "Name": "FLD_CAMERA_ROTATE_BEHIND",
+    "Name": "FLD_FUNCTION_0018",
     "Description": "",
     "Parameters": [
       {
@@ -474,7 +474,7 @@
   {
     "Index": "0x1022",
     "ReturnType": "int",
-    "Name": "FLD_FUNCTION_0022",
+    "Name": "GET_FIELD_MAJOR",
     "Description": "",
     "Parameters": [
     ]
@@ -482,7 +482,7 @@
   {
     "Index": "0x1023",
     "ReturnType": "int",
-    "Name": "FLD_FUNCTION_0023",
+    "Name": "GET_FIELD_MINOR",
     "Description": "",
     "Parameters": [
     ]
@@ -522,7 +522,7 @@
   {
     "Index": "0x1028",
     "ReturnType": "void",
-    "Name": "FLD_EFFECT_TRAESTO_START",
+    "Name": "TRAESTO_VISUAL",
     "Description": "",
     "Parameters": [
     ]

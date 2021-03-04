@@ -2,7 +2,7 @@
   {
     "Index": "0x2000",
     "ReturnType": "bool",
-    "Name": "AI_CHK_MYHP",
+    "Name": "AI_MYHP_LESS_THAN",
     "Description": "",
     "Parameters": [
       {
@@ -15,7 +15,7 @@
   {
     "Index": "0x2001",
     "ReturnType": "int",
-    "Name": "AI_CHK_MYMP",
+    "Name": "AI_FUNCTION_0001",
     "Description": "",
     "Parameters": [
       {
@@ -28,7 +28,7 @@
   {
     "Index": "0x2002",
     "ReturnType": "int",
-    "Name": "AI_CHK_FRHP",
+    "Name": "AI_FR_HP_LESS_THAN",
     "Description": "",
     "Parameters": [
       {
@@ -41,7 +41,7 @@
   {
     "Index": "0x2003",
     "ReturnType": "int",
-    "Name": "AI_CHK_ENHP",
+    "Name": "AI_FUNCTION_0003",
     "Description": "",
     "Parameters": [
       {
@@ -119,7 +119,7 @@
   {
     "Index": "0x2009",
     "ReturnType": "int",
-    "Name": "AI_CHK_FRCNT",
+    "Name": "AI_FUNCTION_0009",
     "Description": "",
     "Parameters": [
       {
@@ -132,7 +132,7 @@
   {
     "Index": "0x200a",
     "ReturnType": "int",
-    "Name": "AI_CHK_ENCNT",
+    "Name": "AI_FUNCTION_000A",
     "Description": "",
     "Parameters": [
       {
@@ -145,7 +145,7 @@
   {
     "Index": "0x200b",
     "ReturnType": "int",
-    "Name": "AI_CHK_MYBAD",
+    "Name": "AI_FR_HOJO",
     "Description": "",
     "Parameters": [
       {
@@ -158,7 +158,7 @@
   {
     "Index": "0x200c",
     "ReturnType": "bool",
-    "Name": "AI_CHK_ENBAD",
+    "Name": "AI_EN_HAS_AILMENT",
     "Description": "",
     "Parameters": [
       {
@@ -184,7 +184,7 @@
   {
     "Index": "0x200e",
     "ReturnType": "bool",
-    "Name": "AI_CHK_FRID",
+    "Name": "AI_FR_IS_PRESENT",
     "Description": "",
     "Parameters": [
       {
@@ -197,7 +197,7 @@
   {
     "Index": "0x200f",
     "ReturnType": "bool",
-    "Name": "AI_CHK_ENID",
+    "Name": "AI_IS_ENID_PRESENT",
     "Description": "",
     "Parameters": [
       {
@@ -210,7 +210,7 @@
   {
     "Index": "0x2010",
     "ReturnType": "int",
-    "Name": "AI_CHK_FRHOJO",
+    "Name": "AI_EN_HOJO",
     "Description": "",
     "Parameters": [
       {
@@ -223,7 +223,7 @@
   {
     "Index": "0x2011",
     "ReturnType": "bool",
-    "Name": "AI_CHK_ENHOJO",
+    "Name": "AI_FUNCTION_0011",
     "Description": "",
     "Parameters": [
       {
@@ -325,7 +325,7 @@
   {
     "Index": "0x201a",
     "ReturnType": "bool",
-    "Name": "AI_CHK_ENHANSYA",
+    "Name": "AI_EN_HAS_NULL",
     "Description": "",
     "Parameters": [
       {
@@ -351,7 +351,7 @@
   {
     "Index": "0x201c",
     "ReturnType": "bool",
-    "Name": "AI_CHK_ENKYUSYU",
+    "Name": "AI_EN_HAS_REFLECT",
     "Description": "",
     "Parameters": [
       {
@@ -377,7 +377,7 @@
   {
     "Index": "0x201e",
     "ReturnType": "bool",
-    "Name": "AI_CHK_ENMUKOU",
+    "Name": "AI_EN_HAS_ABSORB",
     "Description": "",
     "Parameters": [
       {
@@ -403,7 +403,7 @@
   {
     "Index": "0x2020",
     "ReturnType": "int",
-    "Name": "AI_FUNCTION_0020",
+    "Name": "AI_EN_IS_WEAK_TO",
     "Description": "",
     "Parameters": [
       {
@@ -455,7 +455,7 @@
   {
     "Index": "0x2024",
     "ReturnType": "bool",
-    "Name": "AI_CHK_MYUSESKIL",
+    "Name": "AI_SKILL_WAS_USED",
     "Description": "",
     "Parameters": [
       {
@@ -552,7 +552,7 @@
   {
     "Index": "0x202d",
     "ReturnType": "void",
-    "Name": "AI_FUNCTION_002D",
+    "Name": "AI_TAR_LOWHP",
     "Description": "",
     "Parameters": [
     ]
@@ -576,7 +576,7 @@
   {
     "Index": "0x2030",
     "ReturnType": "void",
-    "Name": "AI_TAR_BAD",
+    "Name": "AI_TAR_EN_HAS_AILMENT",
     "Description": "",
     "Parameters": [
       {
@@ -589,7 +589,7 @@
   {
     "Index": "0x2031",
     "ReturnType": "void",
-    "Name": "AI_TAR_NOTBAD",
+    "Name": "AI_FUNCTION_0031",
     "Description": "",
     "Parameters": [
       {
@@ -602,7 +602,7 @@
   {
     "Index": "0x2032",
     "ReturnType": "void",
-    "Name": "AI_TAR_ID",
+    "Name": "AI_TAR_ENID",
     "Description": "",
     "Parameters": [
       {
@@ -615,7 +615,7 @@
   {
     "Index": "0x2033",
     "ReturnType": "void",
-    "Name": "AI_TAR_MINE",
+    "Name": "AI_TAR_SELF",
     "Description": "",
     "Parameters": [
     ]
@@ -631,7 +631,7 @@
   {
     "Index": "0x2035",
     "ReturnType": "void",
-    "Name": "AI_FUNCTION_0035",
+    "Name": "AI_TAR_NULL",
     "Description": "",
     "Parameters": [
       {
@@ -670,7 +670,7 @@
   {
     "Index": "0x2038",
     "ReturnType": "void",
-    "Name": "AI_FUNCTION_0038",
+    "Name": "AI_TAR_WEAK",
     "Description": "",
     "Parameters": [
       {
@@ -735,7 +735,7 @@
   {
     "Index": "0x203d",
     "ReturnType": "void",
-    "Name": "AI_ACT_ATTACK",
+    "Name": "AI_ATTACK",
     "Description": "",
     "Parameters": [
     ]
@@ -743,7 +743,7 @@
   {
     "Index": "0x203e",
     "ReturnType": "void",
-    "Name": "AI_ACT_SKILL",
+    "Name": "AI_USE_SKILL",
     "Description": "",
     "Parameters": [
       {
@@ -756,7 +756,7 @@
   {
     "Index": "0x203f",
     "ReturnType": "void",
-    "Name": "AI_FUNCTION_003F",
+    "Name": "AI_RUN_AWAY",
     "Description": "",
     "Parameters": [
     ]
@@ -764,7 +764,7 @@
   {
     "Index": "0x2040",
     "ReturnType": "void",
-    "Name": "AI_ACT_DEFENSE",
+    "Name": "AI_WAIT",
     "Description": "",
     "Parameters": [
     ]
@@ -772,7 +772,7 @@
   {
     "Index": "0x2041",
     "ReturnType": "void",
-    "Name": "AI_FUNCTION_0041",
+    "Name": "AI_SUMMON",
     "Description": "",
     "Parameters": [
       {
@@ -825,7 +825,7 @@
   {
     "Index": "0x2047",
     "ReturnType": "bool",
-    "Name": "AI_CHK_MORE",
+    "Name": "AI_IS_ENEMY_DOWN",
     "Description": "",
     "Parameters": [
     ]
@@ -833,7 +833,7 @@
   {
     "Index": "0x2048",
     "ReturnType": "void",
-    "Name": "AI_ACT_WAIT",
+    "Name": "AI_SKIP_MY_TURN",
     "Description": "",
     "Parameters": [
     ]
@@ -1067,7 +1067,7 @@
   {
     "Index": "0x205a",
     "ReturnType": "bool",
-    "Name": "AI_CHK_FRIDHP",
+    "Name": "AI_FRID_HP_LESS_THAN",
     "Description": "",
     "Parameters": [
       {
@@ -1139,7 +1139,7 @@
   {
     "Index": "0x205e",
     "ReturnType": "bool",
-    "Name": "AI_CHK_FRIDBAD",
+    "Name": "AI_FRID_HOJO",
     "Description": "",
     "Parameters": [
       {
@@ -1193,7 +1193,7 @@
   {
     "Index": "0x2061",
     "ReturnType": "int",
-    "Name": "AI_FUNCTION_0061",
+    "Name": "AI_CHK_FRID_WEAK_TO",
     "Description": "",
     "Parameters": [
       {
@@ -1211,7 +1211,7 @@
   {
     "Index": "0x2062",
     "ReturnType": "int",
-    "Name": "AI_FUNCTION_0062",
+    "Name": "AI_FRID_WEAK_TO",
     "Description": "",
     "Parameters": [
       {
@@ -1867,7 +1867,7 @@
   {
     "Index": "0x2091",
     "ReturnType": "void",
-    "Name": "AI_FUNCTION_0091",
+    "Name": "AI_CHANGE_AFFINITY_SET",
     "Description": "",
     "Parameters": [
       {
@@ -1930,7 +1930,7 @@
   {
     "Index": "0x2097",
     "ReturnType": "int",
-    "Name": "AI_RND",
+    "Name": "AI_GET_RANDOM_NUMBER_BELOW",
     "Description": "",
     "Parameters": [
       {
@@ -1943,7 +1943,7 @@
   {
     "Index": "0x2098",
     "ReturnType": "void",
-    "Name": "AI_TAR_NOTID",
+    "Name": "AI_FUNCTION_0098",
     "Description": "",
     "Parameters": [
       {
@@ -2075,7 +2075,7 @@
   {
     "Index": "0x20a1",
     "ReturnType": "bool",
-    "Name": "AI_CHK_ENIDBAD",
+    "Name": "AI_ENID_HOJO",
     "Description": "",
     "Parameters": [
       {
@@ -2271,7 +2271,7 @@
   {
     "Index": "0x20ad",
     "ReturnType": "int",
-    "Name": "AI_GET_GLOBAL",
+    "Name": "GET_COUNT",
     "Description": "",
     "Parameters": [
       {
@@ -2284,7 +2284,7 @@
   {
     "Index": "0x20ae",
     "ReturnType": "void",
-    "Name": "AI_SET_GLOBAL",
+    "Name": "SET_COUNT",
     "Description": "",
     "Parameters": [
       {
@@ -2769,7 +2769,7 @@
   {
     "Index": "0x20cc",
     "ReturnType": "bool",
-    "Name": "AI_CHK_MYHOJO",
+    "Name": "AI_MY_HOJO",
     "Description": "",
     "Parameters": [
       {
@@ -3316,7 +3316,7 @@
   {
     "Index": "0x20f8",
     "ReturnType": "void",
-    "Name": "AI_FUNCTION_00F8",
+    "Name": "SET_ORDER",
     "Description": "",
     "Parameters": [
       {
@@ -3334,7 +3334,7 @@
   {
     "Index": "0x20f9",
     "ReturnType": "int",
-    "Name": "AI_FUNCTION_00F9",
+    "Name": "GET_ORDER",
     "Description": "",
     "Parameters": [
       {
@@ -3497,7 +3497,7 @@
   {
     "Index": "0x2104",
     "ReturnType": "void",
-    "Name": "AI_FUNCTION_0104",
+    "Name": "AI_USE_SUMMON_SKILL",
     "Description": "",
     "Parameters": [
       {
@@ -3525,7 +3525,7 @@
   {
     "Index": "0x2105",
     "ReturnType": "void",
-    "Name": "AI_FUNCTION_0105",
+    "Name": "AI_PERSONA_USE_SKILL",
     "Description": "",
     "Parameters": [
       {
