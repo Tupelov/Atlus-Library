@@ -981,8 +981,8 @@
     {
         "Index": "0x0042",
         "ReturnType": "int",
-        "Name": "FUNCTION_0042",
-        "Description": "002C8050",
+        "Name": "PARTY_CHECK",
+        "Description": "Checks if the party member specified is present in the fight",
         "Parameters":
         [
 			{
@@ -5427,8 +5427,8 @@
     {
         "Index": "0x0177",
         "ReturnType": "void",
-        "Name": "FUNCTION_0177",
-        "Description": "002D0830",
+        "Name": "AI_ACT_SKILL_WITH_PERSONA",
+        "Description": "First value is Persona, second value is Skill",
         "Parameters":
         [
 			{
@@ -5547,8 +5547,8 @@
     {
         "Index": "0x0181",
         "ReturnType": "void",
-        "Name": "AI_FUNCTION_0181",
-        "Description": "002D0980",
+        "Name": "AI_ACT_ATTACK",
+        "Description": "Enemy attacks with slash, pierce, or strike (105, 106, 107)",
         "Parameters":
         [
 			{
