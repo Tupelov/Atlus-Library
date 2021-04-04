@@ -981,7 +981,7 @@
     {
         "Index": "0x0042",
         "ReturnType": "int",
-        "Name": "PARTY_CHECK",
+        "Name": "AI_CHK_PLAYER_ID",
         "Description": "Checks if the party member specified is present in the fight",
         "Parameters":
         [
@@ -5427,7 +5427,7 @@
     {
         "Index": "0x0177",
         "ReturnType": "void",
-        "Name": "AI_ACT_SKILL_WITH_PERSONA",
+        "Name": "AI_ACT_PERSONA",
         "Description": "First value is Persona, second value is Skill",
         "Parameters":
         [
