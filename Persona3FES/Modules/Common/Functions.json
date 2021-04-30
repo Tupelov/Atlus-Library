@@ -986,8 +986,8 @@
         "Parameters":
         [
 			{
-				"Type": "int",
-				"Name": "param1",
+				"Type": "BattleUnit",
+				"Name": "Unit",
 				"Description": ""
 			}
         ]
@@ -5428,17 +5428,17 @@
         "Index": "0x0177",
         "ReturnType": "void",
         "Name": "AI_ACT_PERSONA",
-        "Description": "First value is Persona, second value is Skill",
+        "Description": "002D0830",
         "Parameters":
         [
 			{
 				"Type": "int",
-				"Name": "param1",
+				"Name": "Persona",
 				"Description": ""
 			},
 			{
 				"Type": "int",
-				"Name": "param2",
+				"Name": "Skill",
 				"Description": ""
 			}
         ]
