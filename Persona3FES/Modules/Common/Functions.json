@@ -1966,7 +1966,7 @@
     {
         "Index": "0x008d",
         "ReturnType": "void",
-        "Name": "FUNCTION_008D",
+        "Name": "STAND",
         "Description": "002CCE40",
         "Parameters":
         [
@@ -2053,7 +2053,7 @@
     {
         "Index": "0x0095",
         "ReturnType": "void",
-        "Name": "FUNCTION_0095",
+        "Name": "HANSYA_ST",
         "Description": "002CCEB0",
         "Parameters":
         [
@@ -2067,7 +2067,7 @@
     {
         "Index": "0x0096",
         "ReturnType": "void",
-        "Name": "FUNCTION_0096",
+        "Name": "KYUSYU_ST",
         "Description": "002CCF60",
         "Parameters":
         [
@@ -2081,7 +2081,7 @@
     {
         "Index": "0x0097",
         "ReturnType": "void",
-        "Name": "FUNCTION_0097",
+        "Name": "MUKOU_ST",
         "Description": "002CD010",
         "Parameters":
         [
@@ -2095,7 +2095,7 @@
     {
         "Index": "0x0098",
         "ReturnType": "void",
-        "Name": "FUNCTION_0098",
+        "Name": "WEAK_ST",
         "Description": "002CD0C0",
         "Parameters":
         [
@@ -2109,7 +2109,7 @@
     {
         "Index": "0x0099",
         "ReturnType": "void",
-        "Name": "FUNCTION_0099",
+        "Name": "NOT_HANSYA_ST",
         "Description": "002CD170",
         "Parameters":
         [
@@ -2123,7 +2123,7 @@
     {
         "Index": "0x009a",
         "ReturnType": "void",
-        "Name": "FUNCTION_009A",
+        "Name": "NOTKYUSYU_ST",
         "Description": "002CD220",
         "Parameters":
         [
@@ -2137,7 +2137,7 @@
     {
         "Index": "0x009b",
         "ReturnType": "void",
-        "Name": "FUNCTION_009B",
+        "Name": "NOTMUKOU_ST",
         "Description": "002CD2D0",
         "Parameters":
         [
@@ -2151,7 +2151,7 @@
     {
         "Index": "0x009c",
         "ReturnType": "void",
-        "Name": "FUNCTION_009C",
+        "Name": "NOTWEAK_ST",
         "Description": "002CD380",
         "Parameters":
         [
@@ -2305,7 +2305,7 @@
     {
         "Index": "0x00a7",
         "ReturnType": "int",
-        "Name": "FUNCTION_00A7",
+        "Name": "MYHP",
         "Description": "002C9820",
         "Parameters":
         [
@@ -2324,7 +2324,7 @@
     {
         "Index": "0x00a8",
         "ReturnType": "int",
-        "Name": "FUNCTION_00A8",
+        "Name": "MYMP",
         "Description": "002C9910",
         "Parameters":
         [
@@ -2362,7 +2362,7 @@
     {
         "Index": "0x00aa",
         "ReturnType": "int",
-        "Name": "FUNCTION_00AA",
+        "Name": "MYBAD",
         "Description": "002C9AF0",
         "Parameters":
         [
@@ -2400,7 +2400,7 @@
     {
         "Index": "0x00ac",
         "ReturnType": "int",
-        "Name": "FUNCTION_00AC",
+        "Name": "MYHANSYA",
         "Description": "002C9CF0",
         "Parameters":
         [
@@ -2419,7 +2419,7 @@
     {
         "Index": "0x00ad",
         "ReturnType": "int",
-        "Name": "FUNCTION_00AD",
+        "Name": "MYUSEATTR",
         "Description": "002C9DE0",
         "Parameters":
         [
@@ -2438,7 +2438,7 @@
     {
         "Index": "0x00ae",
         "ReturnType": "int",
-        "Name": "FUNCTION_00AE",
+        "Name": "MYUSESKILL",
         "Description": "002C9ED0",
         "Parameters":
         [
@@ -2457,7 +2457,7 @@
     {
         "Index": "0x00af",
         "ReturnType": "int",
-        "Name": "FUNCTION_00AF",
+        "Name": "MYGROUP",
         "Description": "002C9FC0",
         "Parameters":
         [
@@ -2528,7 +2528,7 @@
     {
         "Index": "0x00b3",
         "ReturnType": "int",
-        "Name": "FUNCTION_00B3",
+        "Name": "MYHREC",
         "Description": "002CA330",
         "Parameters":
         [
@@ -2542,7 +2542,7 @@
     {
         "Index": "0x00b4",
         "ReturnType": "void",
-        "Name": "FUNCTION_00B4",
+        "Name": "APPOINT",
         "Description": "002CD430",
         "Parameters":
         [
@@ -3365,7 +3365,7 @@
     {
         "Index": "0x00ed",
         "ReturnType": "int",
-        "Name": "FUNCTION_00ED",
+        "Name": "FRALLHP",
         "Description": "002CB1C0",
         "Parameters":
         [
@@ -3379,7 +3379,7 @@
     {
         "Index": "0x00ee",
         "ReturnType": "int",
-        "Name": "FUNCTION_00EE",
+        "Name": "ENALLHP",
         "Description": "002CB270",
         "Parameters":
         [
@@ -3407,7 +3407,7 @@
     {
         "Index": "0x00f0",
         "ReturnType": "int",
-        "Name": "FUNCTION_00F0",
+        "Name": "ENWEAK_PAI",
         "Description": "002CB3D0",
         "Parameters":
         [
@@ -3421,7 +3421,7 @@
     {
         "Index": "0x00f1",
         "ReturnType": "int",
-        "Name": "FUNCTION_00F1",
+        "Name": "ENWEAK_ST_PAI",
         "Description": "002CB480",
         "Parameters":
         [
@@ -3435,7 +3435,7 @@
     {
         "Index": "0x00f2",
         "ReturnType": "int",
-        "Name": "FUNCTION_00F2",
+        "Name": "ENWEAK_DW_PAI",
         "Description": "002CB530",
         "Parameters":
         [
@@ -3449,7 +3449,7 @@
     {
         "Index": "0x00f3",
         "ReturnType": "int",
-        "Name": "FUNCTION_00F3",
+        "Name": "MYATTRSKIL",
         "Description": "002CB5E0",
         "Parameters":
         [
@@ -3463,7 +3463,7 @@
     {
         "Index": "0x00f4",
         "ReturnType": "int",
-        "Name": "FUNCTION_00F4",
+        "Name": "MYNOMAL",
         "Description": "002CB690",
         "Parameters":
         [
@@ -3477,7 +3477,7 @@
     {
         "Index": "0x00f5",
         "ReturnType": "int",
-        "Name": "FUNCTION_00F5",
+        "Name": "ENNOMAL",
         "Description": "002CB740",
         "Parameters":
         [
@@ -3491,7 +3491,7 @@
     {
         "Index": "0x00f6",
         "ReturnType": "int",
-        "Name": "FUNCTION_00F6",
+        "Name": "ENNOMAL_ST",
         "Description": "002CB7F0",
         "Parameters":
         [
@@ -3505,7 +3505,7 @@
     {
         "Index": "0x00f7",
         "ReturnType": "int",
-        "Name": "FUNCTION_00F7",
+        "Name": "ENNOMAL_DW",
         "Description": "002CB8A0",
         "Parameters":
         [
@@ -4573,7 +4573,7 @@
     {
         "Index": "0x013f",
         "ReturnType": "void",
-        "Name": "FUNCTION_013F",
+        "Name": "AI_XXX",
         "Description": "002CD570",
         "Parameters":
         [
@@ -6414,7 +6414,7 @@
     {
         "Index": "0x01bb",
         "ReturnType": "void",
-        "Name": "FUNCTION_01BB",
+        "Name": "HOJO",
         "Description": "002CD5E0",
         "Parameters":
         [
@@ -6428,7 +6428,7 @@
     {
         "Index": "0x01bc",
         "ReturnType": "void",
-        "Name": "FUNCTION_01BC",
+        "Name": "NOTHOJO",
         "Description": "002CD690",
         "Parameters":
         [
