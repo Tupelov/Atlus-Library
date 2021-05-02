@@ -1357,7 +1357,7 @@
     {
         "Index": "0x005f",
         "ReturnType": "void",
-        "Name": "VOICELINE_FOR_ACTION",
+        "Name": "AI_TAR_RND",
         "Description": "002CC330",
         "Parameters":
         [
