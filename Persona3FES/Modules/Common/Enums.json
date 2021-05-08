@@ -1,0 +1,58 @@
+[
+	{
+		"Name": "BattleUnit",
+		"Description": "This enum represents the available units in battle.",
+		"Members": [
+		  {
+			"Name": "Protagonist",
+			"Value": 1,
+			"Description": ""
+		  },
+		  {
+			"Name": "Yukari",
+			"Value": 2,
+			"Description": ""
+		  },
+		  {
+			"Name": "Aigis",
+			"Value": 3,
+			"Description": ""
+		  },
+		  {
+			"Name": "Mitsuru",
+			"Value": 4,
+			"Description": ""
+		  },
+		  {
+			"Name": "Junpei",
+			"Value": 5,
+			"Description": "Da man"
+		  },
+		  {
+			"Name": "Fuuka",
+			"Value": 6,
+			"Description": ""
+		  },
+		  {
+			"Name": "Akihiko",
+			"Value": 7,
+			"Description": ""
+		  },
+		  {
+			"Name": "Ken",
+			"Value": 8,
+			"Description": ""
+		  },
+		  {
+			"Name": "ShinjiroMetis",
+			"Value": 9,
+			"Description": "Shinjiro in The Journey, Metis in The Answer"
+		  },
+		  {
+			"Name": "Koromaru",
+			"Value": 10,
+			"Description": ""
+		  }
+		]
+	}
+]
