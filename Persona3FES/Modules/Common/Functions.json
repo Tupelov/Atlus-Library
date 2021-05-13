@@ -1579,7 +1579,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleSkill",
 				"Name": "skill_ID",
 				"Description": ""
 			}
@@ -1844,7 +1844,7 @@
 				"Description": "Unknown. Set to 0"
 			},
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			}
@@ -2759,7 +2759,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			}
@@ -2773,7 +2773,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			}
@@ -2787,7 +2787,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			}
@@ -2801,7 +2801,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			}
@@ -2876,7 +2876,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			}
@@ -3069,7 +3069,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			}
@@ -3988,7 +3988,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			},
@@ -4007,7 +4007,7 @@
         "Parameters":
         [
 			{
-				"Type": "int",
+				"Type": "BattleUnit",
 				"Name": "id",
 				"Description": ""
 			},
